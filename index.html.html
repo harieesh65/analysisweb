@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<script src="app.js"></script>
+<body>
+    
+    
+    
+    
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks"><i onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="admission.html">Admission</a></li>
+                <li><a href="file:///C:/Users/ponha/OneDrive/Desktop/hacky/growth.html">Growth</a></li>
+                <li><a href="#Visualization">Visualization</a></li>
+                <li><a href="#Student portal">Student portal</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div> 
+        <i onclick="showMenu()"></i>
+    </nav>
+     <!----------javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"; 
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"; 
+        }
+    </script>
+    <section class="header">
+        <div class="text-box">
+           <h1>WELCOME TO ANALYSIS WEB</h1>
+           <P>THIS WEBSITE IS USED TO KNOW ABOUT THE HISTORY<br>OF A PARTICULAR COLLEGE</P>
+           <A href=""class="hero-btn">VISIT US</A>
+        </div>
+   </section> 
+
+   <!-----course-->
+   <main>
+        <section class="Course">
+           
+                <h1>MAIN USE</h1>
+                <p>Learn about our use of our website</p>
+             
+         
+        <div class="row">            
+                <div class="coursecol">
+                    <h3>ADMISSION</h3>
+                    <p>Collection of admission data of students through our website.</p>
+                    
+                </div>
+                <div class="coursecol">
+                    <h3>GROWTH ANALYSIS</h3>
+                    <p>Growth analysis of the college by using their database as an input.</p>
+                    
+                </div>
+                <div class="coursecol">
+                    <h3>VISUALIZE</h3>
+                    <p>Visualizing the data's of the college that is graphical representation of the data.</p>
+                    
+                </div>
+            </div>              
+        <section class="testimontals">
+            <h1>DONE BY</h1>
+            <P>we are panimalaraites to submit this as follows</P>
+
+            <div class="row">
+                <div class="testimonialcol">
+                    <img src="images/user1.jpg">
+                    <div>
+                        <h3>PONHARIEESH.P</h3>
+                        <p>I managed the front-end using HTML and CSS</p>
+                             
+                    </div>
+                </div>
+                <div class="testimonialcol">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <h3>RAJAKUMARAN.J</h3>
+                        <p>I managed the abstract and front-end Designing</p>
+                             
+                    </div>
+                </div>
+            </div>   
+            <div class = "row" >  
+                <div class="testimonialcol">
+                    <img src="images/user3.jpg">
+                    <div>
+                        <h3>SABARI.R</h3>
+                        <p>I managed the Back-end using javascript</p>
+                             
+                    </div>
+                </div>
+                <div class="testimonialcol">
+                    <img src="images/user4.jpg">
+                    <div>
+                        <h3>NANDHAKUMAR.S</h3>
+                        <p>I managed the Back-end using javascript</p>
+                             
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="footer">
+        <h4>MOTIVE</h4>
+        <p>To bridge the gap in access to education between rural and urban areas</p>
+    </section>
+</html>
+
